@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #232323;
+    
+}
+h1{
+    color: whitesmoke;
+    font-family: poppins;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 4rem;
+    background: rgb(238,174,202);
+    
+
+}
+span{
+    opacity: 0;
+    transition: all 1s ease;
+    display: inline-block;
+    transform: translateY(50px);
+    
+    
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+    color: rgb(110, 28, 243);
+    transform: translateY(0px);
+
+    
+
+}
